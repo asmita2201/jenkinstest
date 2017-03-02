@@ -2,8 +2,8 @@ version: 0.0
 
 os: linux
 files:
-  - source: /target/jenkinstest-0.0.1-SNAPSHOT.war
-    destination: /tmp/
+  - source: /var/lib/jenkins/workspace/jenkinstest/target/jenkinstest-0.0.1-SNAPSHOT.war
+    destination: /opt/tomcat/webapps
 hooks:
 
   ApplicationStop:
