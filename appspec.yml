@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 files:
   - source: /target/jenkinstest-0.0.1-SNAPSHOT.war
-    destination: /tmp/
+    destination: /tmp/jenkinstest/
 hooks:
 
   ApplicationStop:
